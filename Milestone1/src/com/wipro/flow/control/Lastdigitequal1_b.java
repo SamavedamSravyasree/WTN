@@ -7,7 +7,10 @@ public class Lastdigitequal1_b {
         int s1=a%10;
         int s2=b%10;
         if(s1==s2) {
-        	
+        	System.out.print("true");
+        }
+        else {
+        	System.out.print("false");
         }
         
 	}
