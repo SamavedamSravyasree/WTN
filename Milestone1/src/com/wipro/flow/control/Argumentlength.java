@@ -7,11 +7,11 @@ public static void main(String[] args) {
 		System.out.println("No value");
 	}
 	else {
-		for(int i=0;i<s;i++) {
+		for(int i=0;i<s-1;i++) {
 			System.out.print(args[i]);
 			System.out.print(",");
 		}
-		System.out.println(args[s]);
+		System.out.println(args[s-1]);
 	}
 }
 }
